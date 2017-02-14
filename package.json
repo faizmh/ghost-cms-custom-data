@@ -20,6 +20,7 @@
   "scripts": {
     "preinstall": "node core/server/utils/npm/preinstall.js",
     "start": "node index",
+    "debug": "node --inspect --debug-brk index.js",    
     "test": "grunt validate --verbose"
   },
   "engines": {
